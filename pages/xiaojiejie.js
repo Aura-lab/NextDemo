@@ -4,7 +4,7 @@ import axios from 'axios'
 import { loadGetInitialProps } from 'next/dist/next-server/lib/utils'
 
 
-const Xiaojiejie = ({router})=>{
+const Xiaojiejie = ({router,list})=>{
     return (
         <>
             <div>{router.query.name} is coming.</div>
